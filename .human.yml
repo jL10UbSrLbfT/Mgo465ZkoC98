@@ -1,5 +1,6 @@
 services:
     - mongodb
+    - rabbitmq # will start rabbitmq-server
 
 install:
     - sudo apt-get install -y --force-yes apache2
