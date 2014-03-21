@@ -1,7 +1,6 @@
 services:
     - mongodb
     - rabbitmq # will start rabbitmq-server
-    - --status-all; sudo rm -rf /tmp/; sudo service mysql
     - rabbitmq-server
 
 install:
